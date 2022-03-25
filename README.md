@@ -49,7 +49,7 @@
 ------------------------------------------
 
 ### News Screen
-<img src="https://github.com/anjali1361/OceanBin/blob/main/OCEANBIN%20IMAGES/news-1.jpeg" width ="250px" height ="450px"><img src="https://github.com/anjali1361/OceanBin/blob/main/OCEANBIN%20IMAGES/news-2.jpeg" width ="250px" height ="450px">
+<img src="https://github.com/anjali1361/OceanBin/blob/main/OCEANBIN%20IMAGES/news-1.jpeg" width ="250px" height ="450px"> <img src="https://github.com/anjali1361/OceanBin/blob/main/OCEANBIN%20IMAGES/news-2.jpeg" width ="250px" height ="450px">
 
 ------------------------------------------
 
@@ -68,8 +68,25 @@
 
 ------------------------------------------
 
+### APP FLOW:-
+>
+>- The app starts with detailed and interactive onboarding screens guiding the user on how to operate the app. We’ve implemented a comprehensible app interface for a better user experience using <b>Jetpack Compose Kotlin</b>
+>- We have implemented a role-based Sign-in/Sign-up feature for the user, using <b>Firebase Email Authentication</b> having email verification and forgot password functionalities. After successful registration, the user will be redirected to Home Screen.
+>- Home Screen provide the user with the direct option to schedule the OceanBin pickup vehicle. After clicking the related button, the user will be redirected to the vehicle schedule screen where the user can choose his preferred location for pickup and time/date slot accordingly. <b>Map SDK of Google Cloud Map API</b> is used for sending the user’s preferred location for the trash to be picked by the pickup vehicle.
+>- On the home screen, we are displaying Local News with the use of <b>Firebase Firestore</b> and  & Weather Forecasts using <b>OpenWeather API</b>. We want the news for a specific group of users, i.e., fishers and also about topics of their interest like the weather forecast of the sea/ocean where they go fishing so that they can ensure their safety.
+>- On the profile screen, all user-specific details will be displayed. The user can edit their details whenever wants to do.
+Along with the user’s account details, total trash sold and the profit margin/wallet will also be updated using <b>Firebase Firestore & Realtime database.</b>
 
-### Linek to video
+### FUTURE SCOPE:-
+>
+>- In future, we also intend to implement multilingual support.
+>- Wallet transaction/update feature using 3rd party payment gateway services like Payu, Razorpay etc. in the Admin Flow.
+>- We all know recycled plastics reduce energy during manufacturing by 66%. That means less fuel burnt and less harm to the local environment. The collected marine plastic waste will be supplied to the nearest recycling industry.
+
+#### Our solution aims to solve the "Life Below Water" goal listed under "The 17 Sustainable Development Goals of the United Nations".
+
+
+### Link to video
 Link 
 
 ### APK file
